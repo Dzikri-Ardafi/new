@@ -1,0 +1,336 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* page favorite style */
+.favoriteContent .data {
+  display: grid;
+  padding: 2em;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 5em;
+}
+
+.noDataImage {
+  margin: auto;
+  width: 25%;
+}
+
+.title-page {
+  padding: 0 1em;
+}
+
+/* like session */
+.likeButton {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 0, 174);
+
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  border-radius: 50%;
+  border: 0;
+
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.likeButton:hover {
+  background-color: rgb(116, 0, 120);
+}
+
+.spesifikData {
+  padding: 3em;
+}
+#comment {
+  padding: 2em;
+}
+.details {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  gap: 5em;
+}
+.details img {
+  width: 550px;
+  height: 100%;
+  border-radius: 10px;
+}
+.menus {
+  margin: auto;
+  justify-content: space-around;
+  display: flex;
+}
+.box {
+  background-color: rgb(246, 246, 246);
+  border-style: ridge;
+  padding: 0 2em 2em 2em;
+  border-radius: 10px;
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.titleSection {
+  margin-left: -0.5em;
+}
+.innerBox {
+  background-color: rgb(235, 235, 235);
+  border-style: ridge;
+  padding: 0 0.5em;
+  border-radius: 15px 3px;
+  border-left-color: rgb(140, 255, 255);
+  border-left-width: 10px;
+}
+.makananMenus {
+  margin-left: 5em;
+}
+.createdComment {
+  margin-top: -1em;
+  margin-left: 1em;
+  font-size: smaller;
+  color: rgba(67, 67, 67, 0.797);
+}
+.commentContent {
+  margin-top: -0.25em;
+  font-weight: lighter;
+}
+#Restaurant-List {
+  margin-top: 1em;
+}
+html {
+  scroll-behavior: smooth;
+}
+.skip-link {
+  top: -40px;
+  position: absolute;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
+.navbar h1 {
+  font-family: cursive;
+}
+img {
+  display: block;
+}
+.logo img {
+  margin: auto;
+}
+.iconMenu {
+  display: none;
+}
+
+.navbar {
+  padding: 0 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  text-decoration: none;
+  color: black;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.jumbotron {
+  /* background-color: blueviolet; */
+  display: flex;
+  padding: 1em;
+}
+.jumbotron .textJumbotron {
+  width: 650px;
+  z-index: 1;
+  color: rgb(225, 255, 0);
+  position: absolute;
+  margin-top: 5em;
+  font-weight: bolder;
+  font-weight: 900;
+  margin-left: 28%;
+}
+.jumbotron img {
+  width: 1000px;
+  height: 350px;
+  border-radius: 15px;
+  margin: auto;
+  filter: blur(1px);
+  opacity: 0.5;
+}
+
+.items {
+  margin: auto;
+}
+.items .data {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 5em;
+}
+
+.card {
+  width: 350px;
+  height: auto;
+  border: solid;
+  border-radius: 25px 3px;
+  margin: 0 auto 1em auto;
+  background-color: rgba(253, 181, 255, 0.733);
+}
+.card .imgCard {
+  width: 100%;
+  border-radius: 25px 3px;
+
+  max-height: 100%;
+  position: relative;
+}
+.card .lokasi {
+  position: absolute;
+  top: 29em;
+  height: 25px;
+  background-color: rgba(251, 213, 0, 0.896);
+  border-radius: 5px 17px;
+}
+.card .lokasi h4 {
+  margin: auto;
+}
+.card .lokasi .rating {
+  position: absolute;
+}
+.card .detail {
+  padding: 0 1em;
+}
+.footer {
+  padding: 5px;
+  background-color: rgb(0, 68, 113);
+  text-align: center;
+  color: white;
+}
+#sidebar {
+  display: none;
+  padding: 1em;
+  right: 0;
+  z-index: 1;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(124, 231, 255, 0.937);
+}
+#sidebar hr {
+  border: solid;
+}
+.menuSidebar {
+  background-color: rgba(0, 102, 255, 0.866);
+  border-radius: 20px 5px;
+  padding: 0.1em 1em;
+}
+.menuSidebar a {
+  text-decoration: none;
+  color: black;
+}
+.menuBar {
+  width: 250px;
+  display: flex;
+  color: blue;
+  gap: 1em;
+  font-size: 17px;
+}
+.menuBar a {
+  margin: auto;
+  text-decoration: none;
+}
+button {
+  width: auto;
+  height: 35px;
+  border-radius: 25px;
+  background-color: rgba(0, 208, 104, 0.807);
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgb(158, 0, 249);
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 102, 161, 0.523);
+}
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+  .favoriteContent .data {
+    display: grid;
+    padding: 2em;
+    grid-template-columns: repeat(1, auto);
+    row-gap: 2em;
+  }
+  .spesifikData {
+    padding: 1em;
+  }
+  .details {
+    display: block;
+    /* grid-template-columns: repeat(1, auto); */
+  }
+  .details .imgDetail {
+    width: 100%;
+    height: 500px;
+  }
+  .navbar .title {
+    font-size: x-large;
+  }
+  .jumbotron {
+    width: auto;
+    height: 350px;
+    margin: auto;
+  }
+  .textJumbotron {
+    display: none;
+  }
+  .jumbotron img {
+    width: 100%;
+    border-radius: 15px;
+    margin: auto;
+    filter: blur(0px);
+    opacity: 1;
+  }
+  .items .data {
+    width: 90%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(1, auto);
+    gap: 1em;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    border: solid;
+    margin-bottom: 1em;
+  }
+  .card .lokasi {
+    position: absolute;
+    top: 29em;
+    height: 25px;
+    background-color: rgb(251, 213, 0);
+    border-radius: 5px 17px;
+  }
+  .menuBar {
+    display: none;
+  }
+  img.iconMenu {
+    color: black;
+  }
+  .iconMenu {
+    display: inline;
+    margin: auto 0;
+  }
+  .iconMenu:hover {
+    cursor: pointer;
+    background-color: rgba(0, 134, 224, 0.308);
+    border-radius: 7px;
+  }
+  .closeSidebar:hover {
+    cursor: pointer;
+    background-color: rgba(0, 135, 224, 0.827);
+    border-radius: 7px;
+  }
+}
